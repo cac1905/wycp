@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
 	// 返回顶部
 	 $(window).scroll(function () {
 		if($(window).scrollTop() > 100) {  
-			$(".backTop").height(50);
+			$(".backTop").height(48);
 		} else {
 			$(".backTop").height(0);
 		}
