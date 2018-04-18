@@ -236,6 +236,8 @@ h1.section-header {
     display: block;
     margin: 0 auto 20px;
     background-color: #fff;
+    border: 1px solid #f39800;
+    padding: 5px;
 }
 
 #mm-menu p {
@@ -307,8 +309,10 @@ h1.section-header {
 	    bottom: 5px;
 	}
 	.block-item .block-item__details {
-	    width: 88%;
-	    background: rgba(216,144,22,0.9);
+	    width: 100%;
+	    background: url(../images/bg-product-m.png) no-repeat;
 	    padding: 4%;
+	    left: 0;
+	    bottom: 0;
 	}
 }
