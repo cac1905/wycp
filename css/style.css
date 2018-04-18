@@ -255,10 +255,10 @@ h1.section-header {
 }
 
 #mm-menu p {
-	font-size: 16px;
-	color: #F4F4F4;
-	line-height: 24px;
-	font-family: 'MyriadPro Regular';
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 24px;
+    font-family: 'MyriadPro Regular';
 }
 
 .progress { 
@@ -267,21 +267,30 @@ h1.section-header {
 .progress-bar { 
     background-color: #444;
 }
+.mm-menu__address h6 { 
+    font-size: 16px;
+}
+
+#mm-menu { 
+    overflow-x: hidden;
+}
 
 
 
 
 @media (max-width: 992px) {
 	#home {
-	    margin-top: 0;
+    	margin-top: 50px;
 	}
 	.brand-wrap .brand {
 	    background: url(../images/logo-mobile.png) no-repeat left center;
 	    margin-top: 10px;
 	    width: 128px;
 	}
-}
-
+	.nav-wrap.is-fixed {
+	     position: fixed;  
+	}
+} 
 @media only screen and (max-width: 768px) {
      .main-footer .social-icons {
 	    text-align: center;
