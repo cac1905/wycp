@@ -315,4 +315,10 @@ h1.section-header {
 	    left: 0;
 	    bottom: 0;
 	}
+	.no-touchy .block-item:hover .block-item__bg {
+	    opacity: 0; 
+	}
+	.no-touchy .block-item:hover .block-item__details {
+	    transform: translateY(0);
+	}
 }
