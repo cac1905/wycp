@@ -208,11 +208,26 @@ h1.section-header {
 }
 .main-footer  .ico-payment:hover {
     background: url(../images/ico-payment-hover.png) no-repeat;
+} 
+.main-footer .social-icons li a {
+	color: #8a909b;
+}
+.mm-menu__list  a {
+    color: #fff;
 }
 .main-footer .social-icons li {
 	font-size: 16px; 
 	line-height: 24px;
+	cursor: pointer;
 } 
+.mm-menu__list  a:hover {
+	color: #8a909b;
+    transition: all ease .5s;	
+}
+.main-footer .social-icons li:hover a {
+	color: #ccc;
+    transition: all ease .5s;	
+}
 .main-footer .copyright-text {
 	text-align: left;
 }
@@ -288,6 +303,11 @@ h1.section-header {
 
 #mm-menu { 
     overflow-x: hidden;
+}
+#mm-menu .mm-menu__address {
+    padding: 1em 0 0 0;
+    margin: 1em 0 0 0;
+    color: #fff;
 }
 .bar h6,
 .block-item .block-item__details p, 
