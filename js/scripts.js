@@ -40,6 +40,10 @@ jQuery(document).ready(function($) {
 	$(".backTop").on("click",function(){
 		$("html,body").animate({scrollTop:0}, 500);
 	})
+	$(".bx-pager-item").each(function(i){
+		$(".bx-pager-item").eq(i).append('<div class="thumb thumb-0'+(i+1)+'">111</div><div class="overlay-thumb></div>');
+	})
+	
 
 }); // End document ready
 (function ($) {
