@@ -15,7 +15,7 @@
 }
 #home .bx-wrapper .bx-pager, 
 #home .bx-wrapper .bx-controls-auto {
-    bottom: 30px; 
+    bottom: 60px; 
 }
 #home .bx-wrapper .bx-pager {
     text-align: right;
@@ -324,7 +324,7 @@ h1.section-header {
     background-color: #fff;
     font-size: 0;
     position: absolute;
-    top: -65px;
+    top: -75px;
     right: -45px;
     box-shadow: 0 -2px 5px #736c6c;
     opacity: 0;
@@ -339,6 +339,9 @@ h1.section-header {
 }
 .bx-pager-item .thumb-03 {
 	background: #fff url('../images/banner/thumb-03.png') no-repeat center center;
+}
+.bx-pager-item .thumb-04 {
+	background: #fff url('../images/banner/thumb-04.png') no-repeat center center;
 }
 .bx-pager-item:hover .thumb {
     opacity: 1;
