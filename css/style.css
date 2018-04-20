@@ -331,7 +331,7 @@ h1.section-header {
     filter: alpha(opacity=0);
     transition: all ease .8s;
 } 
-.bx-pager-item .thumb-01 {
+/*.bx-pager-item .thumb-01 {
 	background: #fff url('../images/banner/thumb-01.png') no-repeat center center;
 }
 .bx-pager-item .thumb-02 {
@@ -339,9 +339,15 @@ h1.section-header {
 }
 .bx-pager-item .thumb-03 {
 	background: #fff url('../images/banner/thumb-03.png') no-repeat center center;
-}
-.bx-pager-item .thumb-04 {
+}*/
+.bx-pager-item .thumb-01 {
 	background: #fff url('../images/banner/thumb-04.png') no-repeat center center;
+}
+.bx-pager-item .thumb-02 {
+	background: #fff url('../images/banner/thumb-05.png') no-repeat center center;
+}
+.bx-pager-item .thumb-03 {
+	background: #fff url('../images/banner/thumb-06.png') no-repeat center center;
 }
 .bx-pager-item:hover .thumb {
     opacity: 1;
