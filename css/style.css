@@ -246,8 +246,10 @@ h1.section-header {
 .backTop:hover { 
     background-position: 0 -82px;
 }
-.counter-content .counter {  
-    padding: 100px 25px;
+.counter-content .counter {   
+    height: 340px!important; 
+    overflow: hidden; 
+    padding: 90px 25px 0 25px;
 }
 .block-item__details p { 
     line-height: 20px;
@@ -421,10 +423,7 @@ body {
 	     position: fixed;   
 	} 
 	.counter-content .counter { 
-	    height: 340px!important;
 	    border-bottom: 1px solid #404049;
-	    overflow: hidden; 
-	    padding: 90px 25px 0 25px;
 	}
 	.main-footer .ico-partner {
 		border: none;
