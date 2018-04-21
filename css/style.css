@@ -371,9 +371,17 @@ h1.section-header {
     padding-right: 0;
 }
 
-
- 
-
+body {	
+    overflow-x: hidden;
+}
+#work .cbp {
+	max-width: 1180px!important;
+}
+@media (min-width: 2200px) { 
+	.service-right {
+	    height: 900px;
+	}
+}
 @media (min-width: 992px) {
 	.nav-wrap.is-fixed { 
     	background-color: rgba(0,0,0,0.2);
@@ -392,7 +400,7 @@ h1.section-header {
 	    width: 152px;
 	}
 	.nav-wrap.is-fixed {
-	     position: fixed;  
+	     position: fixed;   
 	} 
 	.counter-content .counter { 
 	    height: 340px!important;
