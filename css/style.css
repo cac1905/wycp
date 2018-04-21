@@ -268,7 +268,7 @@ h1.section-header {
     background: url(../images/service-right.png) no-repeat 0 60px;
     background-size: 100%;
     width: 100%;
-    height: 550px;
+    height: 650px;
 }
 .test-classic .item {
      border-radius: 50%; 
@@ -377,6 +377,24 @@ body {
 #work .cbp {
 	max-width: 1180px!important;
 }
+
+.bubble ul li {
+    position: absolute;
+    text-transform: uppercase;
+    color: #b99b79;
+    border-radius: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 2200px) { 
 	.service-right {
 	    height: 900px;
